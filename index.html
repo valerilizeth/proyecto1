@@ -187,12 +187,15 @@
         <a href="tel:+333333333"></a>
     </footer>
 
+    <!-- img sirve para incrustar imagenes -->
     <img 
         src="./img/perritos.jpg" 
         alt="Imagen de dos perros acostados sobre un mantel en la naturaleza" 
         width="300px"
     >
 
+    <!-- sirve para incrustar contenido externo a nuestra web -->
+    <!-- un ejemplo de un video de youtube -->
     <iframe 
         width="560" 
         height="315" 
@@ -203,9 +206,64 @@
         referrerpolicy="strict-origin-when-cross-origin" 
         allowfullscreen
     >
+    </iframe>
 
     
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.665941852927!2d-74.18337731851386!3d4.601501694636577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9f004563fee9%3A0x6796d79caf8c3d31!2sEst%C3%A9tica%20del%20Pilar!5e0!3m2!1ses-419!2sco!4v1713492208230!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- un ejempl de un mapa de google maps -->
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.665941852927!2d-74.18337731851386!3d4.601501694636577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9f004563fee9%3A0x6796d79caf8c3d31!2sEst%C3%A9tica%20del%20Pilar!5e0!3m2!1ses-419!2sco!4v1713492208230!5m2!1ses-419!2sco" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"
+    >
+    </iframe>
+
+    <!-- sirve para incrustar documentos PDFs -->
+    <object 
+        data="./PDF/partitura.pdf"
+        type="application/pdf"
+        height="500px"
+        width="500px"
+    >
+    </object>
+    <a href="./PDF/partitura.pdf" download="">Descargar PDF</a>
+
+    <video 
+        src="./video/flower.webm"
+        height="300px"
+        controls
+        autoplay
+        muted
+        loop
+        controlslist="nodownload nofullscreen"
+    ></video>
+
+    <!--  -->
+
+    <audio 
+        src="./audio/t-rex-roar.mp3"
+        controls
+        autoplay
+        muted
+        controlslist="nodownload"
+    >
+    </audio>
+
+    <a href="./audio/t-rex-roar.mp3" download>
+        Descargar audio
+    </a>
+    
+    <!-- poner imagenes vectoriales -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="red">
+        <path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/>
+    </svg>
+
+    <img src="./icon/house-solid.svg" alt="">
+    
+
 </body>
 
 </html>
