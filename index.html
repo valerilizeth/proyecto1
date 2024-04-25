@@ -1,5 +1,9 @@
 <!-- alt + shit + a -->
 <!-- autocompletado: ctrl + spacio -->
+<!-- copiado rapido: alt + shit + flecha (arriba o abajo) -->
+<!-- mover nuestras lineas de codigo: alt + flecha (arriba o abajo) -->
+<!-- seleccionar la linea de abajo: ctrl + l -->
+<!-- poner varios cursores: alt + click -->
 
 <!-- esta etiqueta define que este es un documento de HTML5 -->
 <!DOCTYPE html>
@@ -280,7 +284,7 @@
 
     <form action="">
         <label>
-            username
+            username:
             <input type="text" name="username" placeholder="username" required>
         </label>
         <br>
@@ -316,11 +320,50 @@
 
     </form>
 
+    <h1>Tabla</h1>
+
+    <table border="1px">
+        <caption>usuario de mi pagina web</caption>
+        <thead> <!-- cabecera -->
+            <tr> <!-- fila -->
+                <th> <!-- celda de titulo -->
+                    Nombre
+                </th>
+                <th>
+                    edad
+                </th>
+                <th>
+                    email
+                </th>
+            </tr>
+        </thead>
+        <tbody> <!-- contenido / datos de nuestra tabla -->
+            <tr> <!-- fila -->
+                <td> <!-- celda de datos -->
+                    sebas
+                </td>
+                <td>
+                    25
+                </td>
+                <td>
+                    jsebas.ariasd@gmail.com
+                </td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    Total de usuarios: 3
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
     <br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br>
 
-    <h1>hola</h1>
 </body>
 
 </html>
